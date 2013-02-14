@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pipelines in python"
-date: 2013-02-014 16:37
+date: 2013-02-14 16:37
 comments: true
 categories: [functions, pipelines, python]
 ---
@@ -78,7 +78,7 @@ result pipeline.someFunction.anotherFunction.finalFunction()
 The constructor for the pipeline if a little ugly since it needs the globals passed in
 however it is super cool that you can just string functions together and the output gets passed along. At some point I want to try and make DotPipeline not need the globals dict passed in.
 Here is the code for DotPipeline:
-``` Python DotPipeline
+``` python DotPipeline
 class DotPipeline(object):
     """
     String together a series of functions using dot syntax.
