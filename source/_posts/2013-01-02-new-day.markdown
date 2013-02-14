@@ -1,0 +1,17 @@
+---
+layout: post
+title: "New Day, New Post"
+date: 2013-01-02 16:37
+comments: true
+categories: [misc, blog, s3]
+---
+
+I recently decided that I no longer wanted to use GIBSY to host my blog. GIBSY
+was a fun learning project and I enjoyed working on it last year and over the
+summer, but I wanted something a bit more feature rich, and 100% static html. So
+I have switched over to using octopress which is based on
+[Jekyll](https://github.com/mojombo/jekyll). I am hosting this all out of s3 so
+I don't have to deal with uptime problems. The plan is to, instead of importing
+all my old posts that are in gibsy, to just store it as a extra page in
+octopress. That way all the old posts are still around but without the trouble
+of importing them.
