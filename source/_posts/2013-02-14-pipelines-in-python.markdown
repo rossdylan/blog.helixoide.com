@@ -6,7 +6,7 @@ comments: true
 categories: [functions, pipelines, python]
 ---
 
-One of my most recent projects was implementing a easy way to link
+One of my most recent projects was implementing an easy way to link
 functions together in pipelines. This way the output of a function
 is piped into the input of another one and so on. Currently I have
 been experimenting with different ways of creating pipelines.
@@ -75,7 +75,7 @@ So the expected usage would be something like this:
 pipeline = DotPipeline(initialvalue, globals())
 result pipeline.someFunction.anotherFunction.finalFunction()
 ```
-The constructor for the pipeline if a little ugly since it needs the globals passed in
+The constructor for the pipeline is a little ugly since it needs the globals passed in
 however it is super cool that you can just string functions together and the output gets passed along. At some point I want to try and make DotPipeline not need the globals dict passed in.
 Here is the code for DotPipeline:
 ``` python DotPipeline
