@@ -73,7 +73,7 @@ The final pipeline was an experiment to see if I could link python functions usi
 So the expected usage would be something like this:
 ``` python
 pipeline = DotPipeline(initialvalue, globals())
-result pipeline.someFunction.anotherFunction.finalFunction()
+result = pipeline.someFunction.anotherFunction.finalFunction()
 ```
 The constructor for the pipeline is a little ugly since it needs the globals passed in
 however it is super cool that you can just string functions together and the output gets passed along. At some point I want to try and make DotPipeline not need the globals dict passed in.
