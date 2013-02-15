@@ -17,7 +17,7 @@ def func(x, y, z):
 part = partial(func, 1)
 ```
 However I find this syntax to be a bit ugly. I would prefer to just be able to call a function with
-only a portion of its arguments and have it generate a new function that takes in the other functions.
+only a portion of its arguments and have it generate a new function that takes in the other arguments.
 ``` python
 def func(x, y, z):
     return (x, y, z)
